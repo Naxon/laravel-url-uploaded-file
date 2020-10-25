@@ -1,6 +1,11 @@
 {
     "name": "naxon/laravel-url-uploaded-file",
     "description": "A package to leverage Laravel's UploadedFile functionality from URLs.",
+    "keywords": [
+        "naxon",
+        "laravel",
+        "laravel-url-uploaded-file"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
