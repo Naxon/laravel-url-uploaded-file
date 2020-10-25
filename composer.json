@@ -1,0 +1,43 @@
+{
+    "name": "naxon/laravel-url-uploaded-file",
+    "description": "A package to leverage Laravel's UploadedFile functionality from URLs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Naxon",
+            "email": "naxond@gmail.com",
+            "homepage": "https://naxon.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^6.2",
+        "phpunit/phpunit": "^9.4",
+        "vimeo/psalm": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Naxon\\UrlUploadedFile\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Naxon\\UrlUploadedFile\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
