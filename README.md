@@ -1,7 +1,7 @@
 # Uploade files from URLs in Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/naxon/laravel-url-uploaded-file.svg?style=flat-square)](https://packagist.org/packages/naxon/laravel-url-uploaded-file)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/naxon/laravel-url-uploaded-file/run-tests?label=tests)](https://github.com/naxon/laravel-url-uploaded-file/actions?query=workflow%3Arun-tests+branch%3Amaster)
+![Tests](https://github.com/naxon/laravel-url-uploaded-file/workflows/Tests/badge.svg?branch=main)
 [![Total Downloads](https://img.shields.io/packagist/dt/naxon/laravel-url-uploaded-file.svg?style=flat-square)](https://packagist.org/packages/naxon/laravel-url-uploaded-file)
 
 This package extends Laravel's [`UploadedFile`](https://github.com/laravel/framework/blob/8.x/src/Illuminate/Http/UploadedFile.php) functionality using file URLs instead of regular file uploads.
