@@ -1,5 +1,5 @@
 {
-    "name": "naxon/laravel-url-uploaded-file",
+    "name": "nguyenhiep/laravel-url-uploaded-file",
     "description": "A package to leverage Laravel's UploadedFile functionality from URLs.",
     "keywords": [
         "naxon",
@@ -13,6 +13,11 @@
             "name": "Daniel Naxon",
             "email": "naxond@gmail.com",
             "homepage": "https://naxon.dev"
+        },
+         {
+            "name": "Nguyễn Văn Hiệp",
+            "email": "nguyenhiepvan.bka@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
